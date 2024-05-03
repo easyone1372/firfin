@@ -1,0 +1,157 @@
+.first {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--primary-purple-200);
+}
+
+.contents {
+  max-width: var(--max-width);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 300px; */
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 700;
+  gap: 25px;
+}
+
+.info {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.buttons {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  width: 30%;
+  height: 30%;
+}
+
+.btn > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.infoImg {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.imgBox-gifcard {
+  width: 60%;
+  height: 60%;
+  z-index: 1;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+.imgBox-gifcard > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.imgBox-card {
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  top: 100px;
+  right: 150px;
+}
+.imgBox-card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.second {
+  width: 100vw;
+  height: 40vh;
+  background-color: var(--neutrals-gray-100);
+}
+.content2 {
+  max-width: var(--max-width);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.box {
+  width: 300px;
+  height: 142px;
+  padding: 40px 10px;
+  gap: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 20px;
+  background-color: var(--neutrals-white);
+}
+
+.star {
+  font-size: var(--font-size-normal);
+  color: var(--primary-purple-300);
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 20px;
+  font-weight: 700;
+  gap: 10px;
+}
+
+.store {
+  width: 50%;
+  height: 30%;
+}
+
+.store > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.waypoint {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--neutrals-white);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
